@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFF">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView3"
+            android:layout_above="@+id/horizontalScrollView4">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alta de Acciones:"
+                    android:id="@+id/textView27"
+                    android:textStyle="bold"
+                    android:textSize="24dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText3"
+                    android:text="Acción realizada:"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="15dp" />
+
+                <EditText
+                    android:layout_width="270dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/tvAccion"
+                    android:minLines="7"
+                    android:background="#fff1f1f1"
+                    android:inputType="text"
+                    android:layout_marginBottom="15dp"
+                    android:singleLine="true"
+                    android:textSize="17dp"
+                    android:hint="Escribe una acción..."
+                    android:editable="true"
+                    android:enabled="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tránsito:"
+                    android:id="@+id/textView28"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="15dp" />
+
+                <Spinner
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/spTransitabilidad"
+                    android:background="@drawable/boton_rojo"
+                    android:spinnerMode="dropdown"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tipo de vehículos que pueden transitar:"
+                    android:id="@+id/textView29"
+                    android:textSize="20dp"
+                    android:layout_span="3"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Autos"
+                    android:id="@+id/textView30"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="15dp" />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/swAutos"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Camiones"
+                    android:id="@+id/textView31"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="15dp" />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/swCamiones"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Todo tipo"
+                    android:id="@+id/textView32"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="15dp" />
+
+                <Switch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/swTodoTipo"
+                    android:layout_marginBottom="15dp" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="Guardar acción"
+                    android:id="@+id/btnAgregarAccion"
+                    android:background="@drawable/boton_verde"
+                    android:textColor="#fff"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Historico de Acciónes:"
+                    android:id="@+id/textView49"
+                    android:textSize="24dp"
+                    android:layout_span="3"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp" />
+
+                <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lvActividades"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="15dp" />
+
+                <Space
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Alta de Conceptos:"
+                    android:id="@+id/textView22"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Concepto:"
+                    android:id="@+id/textView23"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="15dp" />
+
+                <EditText
+                    android:layout_width="270dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/etConcepto"
+                    android:layout_span="3"
+                    android:layout_weight="1"
+                    android:background="#fff1f1f1"
+                    android:layout_marginBottom="15dp"
+                    android:singleLine="true"
+                    android:textSize="17dp"
+                    android:hint="Escribe un concepto..."
+                    android:inputType="text"
+                    android:editable="true"
+                    android:enabled="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cantidad:"
+                    android:id="@+id/textView24"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="15dp" />
+
+                <EditText
+                    android:layout_width="270dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/etCantidad"
+                    android:inputType="numberSigned"
+                    android:background="#fff1f1f1"
+                    android:layout_marginBottom="15dp"
+                    android:singleLine="true"
+                    android:textSize="17dp"
+                    android:hint="Digita una cantidad..."
+                    android:editable="true"
+                    android:enabled="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unidad:"
+                    android:id="@+id/textView25"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="15dp" />
+
+                <Spinner
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="New Button"
+                    android:id="@+id/spUnidad"
+                    android:background="@drawable/boton_rojo"
+                    android:layout_marginBottom="15dp"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Avance:"
+                    android:id="@+id/textView26"
+                    android:textSize="20dp"
+                    android:layout_marginBottom="15dp" />
+
+                <Spinner
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/spAvance"
+                    android:background="@drawable/boton_rojo"
+                    android:layout_marginBottom="15dp"
+                    android:spinnerMode="dropdown" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="Ver o adjuntar fotos"
+                    android:id="@+id/btnAdjuntarFotos"
+                    android:background="@drawable/boton_verde"
+                    android:layout_span="2"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="15dp" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="Guardar concepto"
+                    android:id="@+id/btnAgregarConcepto"
+                    android:background="@drawable/boton_verde"
+                    android:layout_span="2"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Historico de Conceptos:"
+                    android:id="@+id/textView50"
+                    android:textSize="24dp"
+                    android:layout_span="3"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp" />
+
+                <ListView
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/lvConceptos"
+                    android:layout_marginBottom="15dp" />
+
+                <Space
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="15dp" />
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:text="Terminado"
+                    android:id="@+id/btnRegresar"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_verde"
+                    android:textColor="#fff"
+                    android:layout_marginBottom="15dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:id="@+id/horizontalScrollView4"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/linearLayout8"
+                android:background="#F8F8F8"
+                android:baselineAligned="false"
+                android:gravity="center_horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnInicio"
+                    android:src="@drawable/acceso"
+                    android:background="#00ffffff"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnAlta"
+                    android:src="@drawable/alta"
+                    android:background="#00ffffff"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnActualizacion"
+                    android:src="@drawable/actualizacion2"
+                    android:background="#00ffffff"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnMapa"
+                    android:src="@drawable/mapa"
+                    android:background="#00ffffff"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnReportes"
+                    android:src="@drawable/reporte"
+                    android:background="#00ffffff"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnConfiguracion"
+                    android:src="@drawable/configuracion"
+                    android:background="#00ffffff"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

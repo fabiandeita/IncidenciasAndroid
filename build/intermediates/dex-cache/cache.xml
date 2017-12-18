@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/b36f741bea6b5c901348dee7a8d5615acfc21fac/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aeaad717db6f335b7cc6afe9fc76f7120796b257/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/64f824c2f3dbb182f06351924574d37737bd98f9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_12b701f6da73ba175ab4d499089900e5cf09ed77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/1d723933e8323d8efaa830918bf2ac1b6cc06fe2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3b30eb7d106d35921ee23592526c7b3d937d7283/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/f8db57005df0811a7204741c281bfa3ff3b70d08/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_407582c3dd5b49aa48f49f27f0f96a09b7ddc056/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f9c7d9a50c995db47bb3b2d2b0bfbb2fe4781176">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2ef098f665b214e1534f9e182001f9f8c0340a44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.0.0_df652629084908556b8ea3b7a7f24784d20d07c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3/5b0002c5fb66867ca919be0fbd86de1cfaf76da7/httpmime-4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5b0002c5fb66867ca919be0fbd86de1cfaf76da7">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpmime-4.3_60e7904cb2896625bf10daa68826c2ddbd926f21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/a00ff82bccd4edfd2817df8086a75b02cdf47ac5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_99c5c5d674e7d5eb594b5462e2c257bbbecd85d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/3b2792b5479af522093e31b9606bc60f207a4264/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55a9e5ab1f8e35f543f3be8aad9435f313639c59/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/78cde95757483bb77dffd19b4ac0376cdbf4bccf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_86538e572c6d001533a2cfea61a6a65c7f35b2c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/6eb04d3ed8fcdfc60daeaca228571c7f31c4a746/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b99dd1d0a352aac63f0c9208d3051a8a0e107a71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/a943ab0de7106140fabe49e050e4d055b2511334/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5d1a024797dfd1c83f509c98493f5e3746cf5096/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/850542738c7c90c8bff5707f9fdd2aa82da8cddd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d1f5258ec9450fa2e2f8fdedec7d236d8fc9a2d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/d79233325bd2d0fdb62187a68feb435f705b8e1e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c8a2c389a203fbf330adc074dbad71d98dcf367b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/7660aa0e0cd8c18c89146191ae462f76db7fffbc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03d45c5c9d5f8a55e3ec855aa839870d1f3b0fc3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/59f13923da1d0ffcf089a327f118d7ac674b09c0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1aed3faa59dd70b9d3443fad98880e554f02cf80/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/3ebf1dc2fb714b1636c2948b2ef70103bb13d1b6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6063cfad962f844305db2f07907bfd0dbd4f67f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/945e234a8e302b868afaf3b8944b92ad3a0782d5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03534716db38ba8602a6566390e0c6ec0e711457/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/2a5306a51bc48e922887de8ff129519cf9429af9/output/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.0.0_70e9a85d03f2772796b6716fbe7511c1076a52ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-android/4.3.5.1/eecbb0b998e77629862a13d957d552b3be58fc4e/httpclient-android-4.3.5.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpclient-android-4.3.5.1_6639d52efb6fbc04d91108494e0d2744e733a84e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/2a5306a51bc48e922887de8ff129519cf9429af9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0faf6d13fac7685f15c0a4c6be37d77d250d61c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/554f3ebb7bd942bed66fd4e61ca0a30db7c23186/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4558012c818bdf698354bf034a354c9bbe9b90cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/c5761242c41ffb1a4d748f8e00428b0ce241b327/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f7c1c7266b1fde82d76fae46831b3ca43f60538c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/6b73ca963ad8acebb28286a939d31d84ce05bf2f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_630e4e6cd4af781e4a2613358874dbd251ee287b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/6e9e11232c77c717048a6a12c05a8f9da6889449/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_934cc1bcb068e5359b05b54b2882da55d70f572e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6c07428bb7712b7cb55fff3db5229209001d700d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Fabian/.android/build-cache/c76bf634163f9a5f4d1ff58f4dcebbcfcc035033/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Users/Fabian/Documents/Workspace/Emergencias/EmergenciasTESTLAST(Store)/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b147fd1c58548a7e2de7f9cbf34bf71ebfa12f5b/classes.dex" />
+    </item>
+
+</items>

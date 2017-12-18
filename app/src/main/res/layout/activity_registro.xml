@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#fff"
+        android:id="@+id/relativRegistro">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@+id/horizontalScrollView">
+
+            <WebView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/webViewRegistro"
+               />
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:id="@+id/horizontalScrollView"
+            android:layout_alignParentBottom="true"
+            android:nestedScrollingEnabled="false"
+            android:layout_centerHorizontal="true">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentStart="false"
+                android:id="@+id/linearLayout2"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:background="#F8F8F8">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnInicio"
+                    android:src="@drawable/acceso"
+                    android:background="#00ffffff"
+                    android:scaleType="fitXY"
+                    android:baselineAlignBottom="false"
+                    android:cropToPadding="false"
+                    android:adjustViewBounds="true" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnAlta"
+                    android:src="@drawable/alta"
+                    android:background="#00ffffff"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnActualizacion"
+                    android:src="@drawable/actualizacion"
+                    android:background="#01ffffff"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnMapa"
+                    android:src="@drawable/mapa"
+                    android:background="#00ffffff"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/btnReportes"
+                    android:src="@drawable/reporte"
+                    android:background="#00ffffff"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/btnConfiguracion"
+                    android:src="@drawable/configuracion2"
+                    android:background="#00ffffff"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="4"
+    android:versionName="1.4"
+    package="mx.com.tecnologiadenegocios.curso2017" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Indica que solo podrán bajar la palicacion del Play Store los dispositivos que tengan camara -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="mx.com.tecnologiadenegocios.curso2017.Inicio"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mx.com.tecnologiadenegocios.curso2017.Registro"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+        <activity
+            android:name="mx.com.tecnologiadenegocios.curso2017.Alta"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+        <activity
+            android:name="mx.com.tecnologiadenegocios.curso2017.Actualizacion"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+        <activity
+            android:name="mx.com.tecnologiadenegocios.curso2017.Mapa"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+        <activity
+            android:name="mx.com.tecnologiadenegocios.curso2017.Reportes"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+        <activity
+            android:name="mx.com.tecnologiadenegocios.curso2017.Configuracion"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+        <activity
+            android:name="mx.com.tecnologiadenegocios.curso2017.Galeria"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAJJ6ns9c69PxOEfEKRrjNGXuE0vZupBkk" />
+        <activity
+            android:name="mx.com.tecnologiadenegocios.curso2017.activity_mapa"
+            android:label="@string/title_activity_activity_mapa"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+        <activity
+            android:name="mx.com.tecnologiadenegocios.curso2017.AccionConcepto"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+        <activity
+            android:name="mx.com.tecnologiadenegocios.curso2017.Sincronizador"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+        <activity
+            android:name="mx.com.tecnologiadenegocios.curso2017.Detalle"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+
+
+
+    </application>
+
+</manifest>

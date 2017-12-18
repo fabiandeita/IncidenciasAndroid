@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Incidencias Pruebas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="entidad">Entidad federativa</string>
+    <string name="carretera">Carreteras</string>
+    <string name="tramo">Tramos</string>
+    <string name="subtramo">Subtramos</string>
+    <string name="danosCausados">Daños causados</string>
+    <string name="causaIncidencia">Causa de la incidencia</string>
+    <string name="tipoIncidencia">Tipo de incidencia</string>
+    <string name="transitabilidad">Transitabilidad</string>
+    <string name="servicios">http://187.188.120.133</string>
+    <string name="contenidoWEB">http://187.188.120.156</string>
+    <string name="title_activity_activity_mapa">Map</string>
+</resources>

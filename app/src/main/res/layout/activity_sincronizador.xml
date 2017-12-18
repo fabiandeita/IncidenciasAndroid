@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFF">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView4"
+            android:layout_above="@+id/horizontalScrollView9">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Filtros de Busqueda:"
+                    android:id="@+id/textView52"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Entidad:"
+                    android:id="@+id/textView37"
+                    android:textSize="20dp" />
+
+                <Spinner
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/spEntidad"
+                    android:background="@drawable/boton_rojo"
+                    android:spinnerMode="dropdown"
+                    android:prompt="@string/entidad"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Listado de Incidencias"
+                    android:id="@+id/txtSeleccione"
+                    android:textSize="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp" />
+
+                <ListView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/lvIncidencias"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="30dp" />
+
+                <Space
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dp" />
+
+                <Button
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:text="Sincronizar listado"
+                    android:id="@+id/btnSincronizar"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/boton_verde"
+                    android:textColor="#FFF"
+                    android:layout_marginTop="15dp" />
+
+                <Button
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:text="Regresar"
+                    android:background="@drawable/boton_verde"
+                    android:textColor="#FFF"
+                    android:id="@+id/btnReturn"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carretera:"
+                    android:id="@+id/textView38"
+                    android:textSize="20dp"
+                    android:visibility="invisible" />
+
+                <Spinner
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/spCarretera"
+                    android:background="@drawable/boton_rojo"
+                    android:spinnerMode="dropdown"
+                    android:prompt="@string/carretera"
+                    android:layout_marginBottom="15dp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tramo:"
+                    android:id="@+id/textView39"
+                    android:textSize="20dp"
+                    android:visibility="invisible" />
+
+                <Spinner
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/spTramo"
+                    android:background="@drawable/boton_rojo"
+                    android:spinnerMode="dropdown"
+                    android:prompt="@string/tramo"
+                    android:layout_marginBottom="15dp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Subtramo:"
+                    android:id="@+id/textView40"
+                    android:textSize="20dp"
+                    android:visibility="invisible" />
+
+                <Spinner
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/spSubtramo"
+                    android:background="@drawable/boton_rojo"
+                    android:spinnerMode="dropdown"
+                    android:prompt="@string/subtramo"
+                    android:layout_marginBottom="15dp"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:id="@+id/horizontalScrollView9"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/linearLayout10"
+                android:background="#F8F8F8"
+                android:gravity="center_horizontal">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnInicio"
+                    android:src="@drawable/acceso"
+                    android:background="#00ffffff"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnAlta"
+                    android:src="@drawable/alta"
+                    android:background="#00ffffff"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnActualizacion"
+                    android:src="@drawable/actualizacion"
+                    android:background="#00ffffff"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnMapa"
+                    android:src="@drawable/mapa"
+                    android:background="#00ffffff"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnReportes"
+                    android:src="@drawable/reporte"
+                    android:background="#00ffffff"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/btnConfiguracion"
+                    android:src="@drawable/configuracion2"
+                    android:background="#00ffffff"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
